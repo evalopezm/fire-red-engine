@@ -1,31 +1,40 @@
+* {
+  box-sizing: border-box;
+}
 .cuerpo {
-  margin: 0px;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 .principal {
   height: 80vh;
   display: flex;
-  flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
-  border: 3px solid red;
 }
 
 .foot {
   height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border: 3px solid blue;
 }
 
-.pantone {
-  border: 3px solid green;
-  margin: 0px;
+.title {
+  text-align: center;
+  align-items: center;
+  color: #cc212a;
 }
-
-.text {
-  border: 3px solid yellow;
+.title-item {
+  display: block;
 }
 
 .registro {
   border: 3px solid plum;
+  position: inherit;
+  position: relative;
+  transform: translate(0px, -55px);
 }
 
 .copy {
