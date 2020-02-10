@@ -1,13 +1,23 @@
+.cuerpo {
+  margin: 0px;
+}
 .principal {
+  height: 80vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
   border: 3px solid red;
 }
 
 .foot {
+  height: 20vh;
   border: 3px solid blue;
 }
 
 .pantone {
   border: 3px solid green;
+  margin: 0px;
 }
 
 .text {
