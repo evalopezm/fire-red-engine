@@ -57,4 +57,10 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
   }
+  .registro {
+    margin-top: 0;
+  }
+}
